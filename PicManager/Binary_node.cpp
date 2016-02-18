@@ -5,7 +5,6 @@ using namespace std;
 template<class Entry>
 Binary_node<Entry>::Binary_node()
 {
-	//data=NULL;
 	KEY="";
 	left=NULL;
 	right=NULL;

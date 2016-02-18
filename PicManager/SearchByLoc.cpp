@@ -283,7 +283,7 @@ void CSearchByLoc::OnBnClickedButton2()  //≤È’“∞¥≈•
        InvalidateRect(&rect); 	
       }	
       else
-          MessageBox(_T("The Word is not exist!"));
+          MessageBox(_T("The Word does not exist!"));
 }
 
 void CSearchByLoc::OnPaint()

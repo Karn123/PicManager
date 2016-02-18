@@ -139,8 +139,6 @@ Error_code PictureInfoList::initialization(List<Node<PictureRecord>*> &whole_lis
 Error_code PictureInfoList::Insert(const PictureRecord &data)
 {
 	PictureRecord m;
-	
-
 	Node<PictureRecord> *p=new Node<PictureRecord>;
 	p->entry=data;
 	

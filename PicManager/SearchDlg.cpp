@@ -106,7 +106,7 @@ void CSearchDlg::OnBnClickedOk() //查找按钮
        InvalidateRect(&rect); 	
       }	
       else
-          MessageBox(_T("The Word is not exist!"));
+          MessageBox(_T("The Word does not exist!"));
 }
 
 void CSearchDlg::drawPicture(CStatic* m_Pic/*控件名称*/, int no/*控件编号0-n-1*/)
