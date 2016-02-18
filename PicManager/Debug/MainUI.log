@@ -1,0 +1,43 @@
+﻿  stdafx.cpp
+  Search_tree.cpp
+  PicRecord.cpp
+  PicInfoList.cpp
+  PdfJpeg.cpp
+g:\baiduyundownload\mymainui\mainui\pdfjpeg.cpp(31): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  Node.cpp
+  LocationGraph.cpp
+  LinkedList.cpp
+  Binary_node.cpp
+  正在生成代码...
+  TimeTestDlg.cpp
+  SelectionDlg.cpp
+  SearchDlg.cpp
+g:\baiduyundownload\mymainui\mainui\searchdlg.cpp(147): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  SearchByLoc.cpp
+g:\baiduyundownload\mymainui\mainui\searchbyloc.cpp(162): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  ReplaceDlg.cpp
+  PicExplorerDlg.cpp
+g:\baiduyundownload\mymainui\mainui\picexplorerdlg.cpp(174): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  MainUIDlg.cpp
+  MainUI.cpp
+  InsertDlg.cpp
+g:\baiduyundownload\mymainui\mainui\insertdlg.cpp(70): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+g:\baiduyundownload\mymainui\mainui\insertdlg.cpp(118): warning C4305: “=”: 从“__int64”到“long”截断
+g:\baiduyundownload\mymainui\mainui\insertdlg.cpp(118): warning C4309: “=”: 截断常量值
+  GraphSeries.cpp
+  GraphLegend.cpp
+  Graph.cpp
+g:\baiduyundownload\mymainui\mainui\graph.cpp(216): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+g:\baiduyundownload\mymainui\mainui\graph.cpp(325): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+g:\baiduyundownload\mymainui\mainui\graph.cpp(346): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+g:\baiduyundownload\mymainui\mainui\graph.cpp(371): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+g:\baiduyundownload\mymainui\mainui\graph.cpp(390): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+g:\baiduyundownload\mymainui\mainui\graph.cpp(445): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+g:\baiduyundownload\mymainui\mainui\graph.cpp(485): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  FtMarkChinaDlg.cpp
+  FootMarkdlg.cpp
+  正在生成代码...
+Binary_node.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  MainUI.vcxproj -> G:\BaiduYunDownload\MyMainUI\MainUI\Debug\MainUI.exe

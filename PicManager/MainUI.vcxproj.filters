@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Binary_node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FootMarkdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FtMarkChinaDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphLegend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphSeries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LocationGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUIDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PdfJpeg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PicExplorerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PicInfoList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PicRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplaceDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Search_tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchByLoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeTestDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Binary_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FootMarkdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FtMarkChinaDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphLegend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphSeries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocationGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUIDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PdfJpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PicExplorerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PicInfoList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PicRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplaceDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Search_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchByLoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeTestDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="14669716_102129723131_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="51.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="add.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BackgrdReplace.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BackgrdSelection.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BackgrdSrchByLoc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttonChina.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="buttonEcnu.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ButtonPic.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="China.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ChooseMap.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="delete.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DeleteButton.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ECNU_Map.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Exit.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="explore.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ExploreBackgrd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="footprint.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="insert.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="InsertBackground.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MainBackgrd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MainUI.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="modifySure.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Next.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Open.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Pre.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="replace.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Search.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SearchBackgrd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SearchByLoc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="SearchByTitle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TestTime.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="TimeTestBgrd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="取消播放.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MainUI.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MainUI.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="info.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="graphVertex.txt" />
+    <Text Include="info.txt" />
+    <Text Include="infoNoPicture.txt" />
+    <Text Include="introduction.txt" />
+    <Text Include="MyInfo.txt" />
+    <Text Include="pictureNames.txt" />
+    <Text Include="pictureNoInfo.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

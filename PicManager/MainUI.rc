@@ -1,0 +1,430 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\MainUI.rc2""  // ?¤? Microsoft Visual C++ ?à¨¤?-|ì??á¨o???\r\n"
+    "#include ""l.CHS\\afxres.rc""      // ?à¨o?á??á¨|?t\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\MainUI.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 MainUI"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "MainUI，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2014",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_MAINUI_DIALOG DIALOGEX 0, 0, 525, 367
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "增加",IDC_BUTTON_Insert,226,32,92,34,BS_BITMAP
+    PUSHBUTTON      "删除",IDC_BUTTON_Remove,85,84,102,43,BS_BITMAP
+    PUSHBUTTON      "修改",IDC_BUTTON_Replace,10,150,113,38,BS_BITMAP
+    PUSHBUTTON      "浏览",IDC_BUTTON_explore,358,85,110,38,BS_BITMAP
+    PUSHBUTTON      "按标题查找",IDC_BUTTON_SearchByTitle,195,146,224,55,BS_BITMAP
+    PUSHBUTTON      "按地点查找",IDC_BUTTON_SearchByLoc,29,230,194,43,BS_BITMAP
+    PUSHBUTTON      "足迹",IDC_BUTTON_Track,117,306,108,41,BS_BITMAP
+    PUSHBUTTON      "测试时间",IDC_BUTTON_Testing,306,241,165,76,BS_BITMAP
+    PUSHBUTTON      "Button1",IDC_BUTTON1,501,0,24,24,BS_BITMAP
+    CONTROL         157,IDC_STATIC,"Static",SS_BITMAP,357,83,114,43
+    CONTROL         158,IDC_STATIC,"Static",SS_BITMAP,117,305,108,43
+    CONTROL         164,IDC_STATIC,"Static",SS_BITMAP,305,239,166,78
+    CONTROL         163,IDC_STATIC,"Static",SS_BITMAP,225,31,96,38
+    CONTROL         161,IDC_STATIC,"Static",SS_BITMAP,9,149,115,39
+    CONTROL         160,IDC_STATIC,"Static",SS_BITMAP,85,83,103,48
+    CONTROL         166,IDC_STATIC,"Static",SS_BITMAP,27,226,202,48
+    CONTROL         165,IDC_STATIC,"Static",SS_BITMAP,194,143,226,59
+    CONTROL         167,IDC_STATIC,"Static",SS_BITMAP,500,0,25,25
+END
+
+IDD_DIALOG_Explorer DIALOGEX 0, 0, 631, 395
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_STATIC_PIC1,"Static",SS_BLACKFRAME,110,59,406,271
+    PUSHBUTTON      "Previous",IDC_BUTTON1,35,206,38,18,BS_BITMAP
+    PUSHBUTTON      "Next",IDC_BUTTON2,550,202,39,19,BS_BITMAP
+    PUSHBUTTON      "Exit",IDC_BUTTONExit,604,0,27,25,BS_BITMAP
+    CONTROL         167,IDC_STATIC,"Static",SS_BITMAP,602,0,29,27
+    CONTROL         168,IDC_STATIC,"Static",SS_BITMAP,549,202,41,19
+    CONTROL         168,IDC_STATIC,"Static",SS_BITMAP,33,204,41,19
+    PUSHBUTTON      "Button3",IDC_BUTTON3,574,348,29,23,BS_BITMAP
+    CONTROL         174,IDC_STATIC,"Static",SS_BITMAP,573,345,30,27
+    PUSHBUTTON      "Button4",IDC_BUTTON4,385,358,116,18,BS_BITMAP
+    PUSHBUTTON      "Button5",IDC_BUTTON5,130,359,109,24,BS_BITMAP
+    CONTROL         197,IDC_STATIC,"Static",SS_BITMAP,382,356,121,23
+    CONTROL         199,IDC_STATIC,"Static",SS_BITMAP,128,356,113,27
+END
+
+IDD_DIALOG_FootMarkDlg DIALOGEX 0, 0, 401, 230
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_Insert DIALOGEX 0, 0, 499, 262
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "打开",IDC_BUTTON1,297,30,50,14,BS_BITMAP
+    CTEXT           "文件名",IDC_STATIC,120,33,37,8
+    CTEXT           "图片名",IDC_STATIC,93,88,28,8
+    CTEXT           "文件高",IDC_STATIC,93,132,25,8
+    CTEXT           "文件宽",IDC_STATIC,261,87,25,8
+    CTEXT           "文件大小",IDC_STATIC,254,132,33,8
+    EDITTEXT        IDC_EDIT2,146,86,61,13,ES_AUTOHSCROLL
+    CONTROL         "",IDC_DATETIMEPICKER1,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,144,173,100,15
+    CTEXT           "修改时间",IDC_STATIC,90,177,33,8
+    PUSHBUTTON      "退出",IDC_BUTTON2,472,2,27,24,BS_BITMAP
+    CTEXT           "所属地图",IDC_STATIC,262,178,33,8
+    CONTROL         "华师大",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,307,178,40,10
+    CONTROL         "中国",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,357,178,32,10
+    PUSHBUTTON      "确认添加",IDC_BUTTON3,390,215,51,15,BS_BITMAP
+    CONTROL         167,IDC_STATIC,"Static",SS_BITMAP,470,0,29,27
+    CONTROL         191,IDC_STATIC,"Static",SS_BITMAP,387,214,61,16
+    CONTROL         192,IDC_STATIC,"Static",SS_BITMAP,295,30,52,15
+    EDITTEXT        IDC_EDIT1,173,30,113,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,147,132,60,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,299,129,60,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,300,85,58,15,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_SearchByTitle DIALOGEX 0, 0, 559, 364
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "查找",IDOK,364,49,35,20,BS_BITMAP
+    PUSHBUTTON      "取消",IDCANCEL,524,7,28,26,BS_BITMAP
+    CONTROL         170,IDC_STATIC,"Static",SS_BITMAP,362,48,38,22
+    CONTROL         167,IDC_STATIC,"Static",SS_BITMAP,523,7,29,27
+    EDITTEXT        IDC_EDIT2,227,50,97,17,ES_CENTER | NOT WS_BORDER,WS_EX_TRANSPARENT
+    CTEXT           "图片名",IDC_EDIT1,175,51,50,18,0,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_Pic1,"Static",SS_BLACKFRAME,139,98,131,116
+    CONTROL         "",IDC_Pic2,"Static",SS_BLACKFRAME,283,98,133,116
+    CONTROL         "",IDC_Pic3,"Static",SS_BLACKFRAME,139,220,133,118
+    CONTROL         "",IDC_Pic4,"Static",SS_BLACKFRAME,285,220,132,116
+    PUSHBUTTON      "下一页",IDC_BUTTON1,455,206,39,14,BS_BITMAP
+    PUSHBUTTON      "上一页",IDC_BUTTON2,67,206,38,17,BS_BITMAP
+    CONTROL         168,IDC_STATIC,"Static",SS_BITMAP,453,203,41,19
+    CONTROL         169,IDC_STATIC,"Static",SS_BITMAP,66,204,40,19
+END
+
+IDD_DIALOG_SearchByLoc DIALOGEX 0, 0, 554, 339
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Pre",IDPre,61,176,40,18,BS_BITMAP
+    PUSHBUTTON      "Next",IDNext,475,173,38,17,BS_BITMAP
+    PUSHBUTTON      "Exit",IDC_BUTTON1,526,2,26,25,BS_BITMAP
+    EDITTEXT        IDC_EDIT1,222,20,93,20,ES_CENTER | NOT WS_BORDER
+    CTEXT           "Location",IDC_EDIT2,119,21,82,16
+    CONTROL         "",IDC_Picture1,"Static",SS_BLACKFRAME,135,62,145,116
+    CONTROL         "",IDC_Picture2,"Static",SS_BLACKFRAME,297,62,145,117
+    CONTROL         "",IDC_Picture3,"Static",SS_BLACKFRAME,137,186,144,126
+    CONTROL         "",IDC_Picture4,"Static",SS_BLACKFRAME,297,186,145,126
+    PUSHBUTTON      "OK",IDC_BUTTON2,340,20,37,20,BS_BITMAP
+    CONTROL         168,IDC_STATIC,"Static",SS_BITMAP,473,172,41,19
+    CONTROL         169,IDC_STATIC,"Static",SS_BITMAP,61,174,40,19
+    CONTROL         170,IDC_STATIC,"Static",SS_BITMAP,339,20,38,22
+    CONTROL         167,IDC_STATIC,"Static",SS_BITMAP,525,0,29,27
+END
+
+IDD_DIALOG_Replace DIALOGEX 0, 0, 486, 345
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定修改",IDOK,404,311,58,17,BS_BITMAP
+    CTEXT           "要修改的文件名",IDC_1,78,33,100,16
+    EDITTEXT        IDC_EDIT1,189,32,72,16,ES_AUTOHSCROLL | NOT WS_BORDER
+    CTEXT           "请输入修改后的：",IDC_3,46,81,113,15
+    CTEXT           "图片高度",IDC_4,107,114,56,16
+    CTEXT           "图片宽度",IDC_5,109,151,55,14
+    CTEXT           "图片标题",IDC_6,109,228,53,16
+    CTEXT           "图片位置",IDC_7,109,188,55,14
+    CTEXT           "所属地图",IDC_8,109,271,55,15
+    EDITTEXT        IDC_EDIT4,218,225,83,19,ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT5,218,183,82,19,ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT6,218,270,86,18,ES_AUTOHSCROLL | NOT WS_BORDER
+    PUSHBUTTON      "Exit",IDC_BUTTON1,459,2,25,24,BS_BITMAP
+    CTEXT           "filename",IDC_2,281,32,63,15
+    EDITTEXT        IDC_EDIT7,217,113,82,18,ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT8,219,148,82,18,ES_AUTOHSCROLL | NOT WS_BORDER
+    CONTROL         167,IDC_STATIC,"Static",SS_BITMAP,457,0,29,27
+    CONTROL         179,IDC_STATIC,"Static",SS_BITMAP,400,309,67,19
+END
+
+IDD_DIALOG_FootMarkDlgChina DIALOGEX 0, 0, 401, 231
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG_Selection DIALOGEX 0, 0, 342, 208
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "华师大地图",IDC_BUTTON1,129,119,97,19,BS_BITMAP
+    PUSHBUTTON      "中国地图",IDC_BUTTON2,135,63,84,17,BS_BITMAP
+    LTEXT           "请选择地图：",IDC_STATIC,57,36,49,8
+    CONTROL         185,IDC_STATIC,"Static",SS_BITMAP,126,116,103,23
+    CONTROL         186,IDC_STATIC,"Static",SS_BITMAP,133,60,91,23
+    CONTROL         187,IDC_STATIC,"Static",SS_BITMAP,17,28,109,20
+    PUSHBUTTON      "Exit",IDC_BUTTON3,313,0,27,26,BS_BITMAP
+    CONTROL         167,IDC_STATIC,"Static",SS_BITMAP,313,0,29,27
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 544, 333
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,15,6,431,303
+    PUSHBUTTON      "关闭",IDC_BUTTON4,478,249,50,14
+    PUSHBUTTON      "饼图",IDC_BUTTON3,477,191,50,14
+    PUSHBUTTON      "直方图",IDC_BUTTON2,477,135,50,14
+    PUSHBUTTON      "曲线图",IDC_BUTTON1,475,74,50,14
+    PUSHBUTTON      "Exit",IDC_BUTTON9,518,0,26,26,BS_BITMAP
+    CONTROL         167,IDC_STATIC,"Static",SS_BITMAP,516,0,29,27
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "MainUI.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "MainUI.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_DIALOG_FootMarkDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+    END
+
+    IDD_DIALOG_Insert, DIALOG
+    BEGIN
+        RIGHTMARGIN, 468
+    END
+
+    IDD_DIALOG_SearchByTitle, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 552
+        TOPMARGIN, 7
+    END
+
+    IDD_DIALOG_SearchByLoc, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 327
+    END
+
+    IDD_DIALOG_Replace, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        BOTTOMMARGIN, 328
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "ECNU_Map.bmp"
+IDB_BITMAP2             BITMAP                  "explore.bmp"
+IDB_BITMAP3             BITMAP                  "footprint.bmp"
+IDB_BITMAP4             BITMAP                  "ExploreBackgrd.bmp"
+IDB_BITMAP5             BITMAP                  "delete.bmp"
+IDB_BITMAP6             BITMAP                  "replace.bmp"
+IDB_BITMAP7             BITMAP                  "MainBackgrd.bmp"
+IDB_BITMAP8             BITMAP                  "insert.bmp"
+IDB_BITMAP9             BITMAP                  "TestTime.bmp"
+IDB_BITMAP10            BITMAP                  "SearchByTitle.bmp"
+IDB_BITMAP11            BITMAP                  "SearchByLoc.bmp"
+IDB_BITMAP12            BITMAP                  "Exit.bmp"
+IDB_BITMAP13            BITMAP                  "Next.bmp"
+IDB_BITMAP14            BITMAP                  "Pre.bmp"
+IDB_BITMAP15            BITMAP                  "Search.bmp"
+IDB_BITMAP16            BITMAP                  "DeleteButton.bmp"
+IDB_BITMAP17            BITMAP                  "SearchBackgrd.bmp"
+IDB_BITMAP18            BITMAP                  "BackgrdSrchByLoc.bmp"
+IDB_BITMAP19            BITMAP                  "BackgrdReplace.bmp"
+IDB_BITMAP20            BITMAP                  "modifySure.bmp"
+IDB_BITMAP21            BITMAP                  "InsertBackground.bmp"
+IDB_BITMAP23            BITMAP                  "BackgrdSelection.bmp"
+IDB_BITMAP24            BITMAP                  "buttonEcnu.bmp"
+IDB_BITMAP25            BITMAP                  "buttonChina.bmp"
+IDB_BITMAP26            BITMAP                  "ChooseMap.bmp"
+IDB_BITMAP27            BITMAP                  "TimeTestBgrd.bmp"
+IDB_BITMAP22            BITMAP                  "China.bmp"
+IDB_BITMAP28            BITMAP                  "add.bmp"
+IDB_BITMAP29            BITMAP                  "Open.bmp"
+IDB_BITMAP31            BITMAP                  "51.bmp"
+IDB_BITMAP30            BITMAP                  "取消播放.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 MainUI(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\MainUI.rc2"  // ?¤? Microsoft Visual C++ ?à¨¤?-|ì??á¨o???
+#include "l.CHS\afxres.rc"      // ?à¨o?á??á¨|?t
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
